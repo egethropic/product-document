@@ -10,6 +10,14 @@ Read the [skill](skills/product-document/SKILL.md), [workflow flowchart](skills/
 
 Copy the complete `skills/product-document` folder into your agent's skill directory. For Codex, that is `$CODEX_HOME/skills/product-document` or `~/.codex/skills/product-document` by default. Keep its references and license with it.
 
+For agents supported by the [skills CLI](https://github.com/vercel-labs/skills/blob/main/docs/commands.md), install with:
+
+```sh
+npx skills add egethropic/product-document --skill product-document
+```
+
+The CLI lets you select the target agents. Add `-g` for a user-wide installation. Repository discovery with `--list` has been checked and finds `product-document`.
+
 With Codex's skill installer, request:
 
 > Install the product-document skill from egethropic/product-document, path skills/product-document.
