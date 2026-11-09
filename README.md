@@ -39,3 +39,7 @@ One complete product-sheet pilot has exercised multi-view CAD references, concep
 ## License
 
 [MIT](LICENSE). Supplied CAD, fonts, reference images and other product assets retain their own licenses; they are not included in this repository.
+
+## Factory integration
+
+This repository remains the public, independently installable source for `product-document`. It is also a purpose-specific daughter of [eges-engineering-factory](https://github.com/egethropic/eges-engineering-factory), whose private catalog pins tested releases. Standalone users do not need access to that catalog. Make document-skill changes here; downstream factory installations consume a pinned revision rather than maintaining a separate editable copy.
